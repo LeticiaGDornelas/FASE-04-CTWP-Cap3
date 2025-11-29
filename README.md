@@ -1,11 +1,11 @@
 # ATIVIDADE (IR ALÉM) – Da Terra ao Código: Automatizando a Classificação de Grãos com Machine Learning
 ---
 
-Integrantes (Nome + RM)
-Leticia Grossi Dornelas – RM568172
-Leonardo Borges Alves da Mota – RM566939
-Bernardo Naves Doti Avelar – RM566867
-David Eduardo da Silva Correia - RM567525
+## Integrantes (Nome + RM)
+- Leticia Grossi Dornelas – RM568172
+- Leonardo Borges Alves da Mota – RM566939
+- Bernardo Naves Doti Avelar – RM566867
+- David Eduardo da Silva Correia - RM567525
 
 ---
 
@@ -23,14 +23,16 @@ O trabalho segue as etapas clássicas de um fluxo de Machine Learning:
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
+```
 /
 ├── seeds_dataset.txt # Conjunto de dados utilizado
 ├── fase_04_ctwp_cap3.ipynb # Notebook com análise e modelos
 ├── fase_04_ctwp_cap3.py # Versão exportada do notebook
 └── README.md # Documentação do projeto
 
+```
 
 ---
 
@@ -77,7 +79,7 @@ As seguintes etapas foram executadas:
 
 ---
 
-## 🧠 3. Modelos de Classificação Treinados
+## 3. Modelos de Classificação Treinados
 
 Foram utilizados cinco algoritmos:
 
@@ -114,7 +116,7 @@ As matrizes de confusão indicaram que erros tendem a ocorrer entre classes morf
 
 ---
 
-## ⚙ 5. Otimização via Grid Search
+## 5. Otimização via Grid Search
 
 Foram ajustados hiperparâmetros de:
 
